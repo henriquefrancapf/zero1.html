@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO1 Tactical - Formulário de Inscrição</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #3a382f;
+            color: #fff;
+        }
+        .container {
+            max-width: 400px; /* Ajusta a largura máxima do formulário para 400px */
+            margin: auto; /* Centraliza o formulário */
+        }
+        .form-control {
+            height: 50px; /* Ajusta a altura dos campos de entrada */
+        }
+        footer {
+            background-color: #2d2b2b;
+            color: #575050;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Inscreva-se agora!</h2>
+        <form action="index4.html" method="get">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Seu Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone">
+            </div>
+            <div class="form-group">
+                <label for="curso">Escolha o Curso:</label>
+                <select class="form-control" id="curso" name="curso" required>
+                    <option value="">Selecione um curso</option>
+                    <option value="curso1">Curso de Tiro Básico</option>
+                    <option value="curso2">Curso de Tiro Avançado</option>
+                    <option value="curso3">Curso de Táticas de Combate</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Inscrever-se</button>
+            <form action="index4.html" method="get">     
+        </form>
+   
+    </div>
+    <footer class="text-center py-3">
+        <p>© 2023 ZERO1 Tactical. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

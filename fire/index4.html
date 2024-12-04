@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição Concluída</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .container {
+            background: #111;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        img {
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <img src='eu_rifle.png' alt="Minha Foto" class="rounded-circle">
+        <h1>Inscrição Concluída!</h1>
+        <p>Obrigado por se inscrever no curso. Você receberá um e-mail de confirmação em breve.</p>
+        <hr>
+        <h2>Sobre Mim</h2>
+        <p>Olá, me chamo Henrique França. Instrutor de tiro e combate com mais de meia década de experiência. Esse curso é voltado para você que deseja aprender
+        técnicas de combate e tiro. Com a minha experiência e conhecimento irei garantir que você aprenda com o melhor e se tornar melhor. Você será o melhor 01. sertão!
+        
+    </p>
+        
+        <!-- Exibir dados do formulário -->
+        <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const nome = urlParams.get('nome');
+            const email = urlParams.get('email');
+            const telefone = urlParams.get('telefone');
+            const curso = urlParams.get('curso');
+
+
+        </script>
+    </div>
+</body>
+</html>
